@@ -7,7 +7,7 @@ We thanks :
  -Emmanuel ADEKPLOVI
 ************************************************
 
-addtolinenumber.php "Functions for add words to a specific line into one file"
+addtolinenumber.php "Functions for add words to a specific line into one file"  
 databaserestoresql.php "Functions for restore mysql database from a sql file"
  
  
