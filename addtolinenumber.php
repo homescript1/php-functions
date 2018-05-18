@@ -6,7 +6,7 @@
  * @author Emmanuel ADEKPLOVI
  */
 
-function wcp_addtoLinumber($pathtofile,$lineNumber,$wordtoadd){
+function addtoLinumber($pathtofile,$lineNumber,$wordtoadd){
     $content = file($pathtofile,FILE_USE_INCLUDE_PATH); 
     foreach($content as $lineNumber => &$lineContent) {
         if($lineNumber == $liNumber) {
