@@ -7,7 +7,7 @@
  * @author Emmanuel ADEKPLOVI
  */
 
-function wcp_lineDeleter($path,$words){
+function linedeleterinfile($path,$words){
     $arr = file($path,FILE_USE_INCLUDE_PATH);
     foreach ($arr as $key=> $line) {
         //removing the line
